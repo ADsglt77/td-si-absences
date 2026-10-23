@@ -1,0 +1,20 @@
+{
+  "name": "td-si-absences-elysia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototype A - API REST de gestion des absences - TD ALMF55",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "test": "bun test",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "elysia": "1.4.30"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "typescript": "^5.9.0"
+  }
+}
